@@ -4,6 +4,7 @@
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
+  <packaging>war</packaging>
 
   <groupId>com.demo</groupId>
   <artifactId>jenkins-java-project</artifactId>
@@ -15,6 +16,17 @@
   </properties>
 
   <dependencies>
+    <dependency>
+
+      <groupId>javax.servlet</groupId>
+
+      <artifactId>javax.servlet-api</artifactId>
+
+      <version>4.0.1</version>
+
+      <scope>provided</scope>
+
+    </dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
